@@ -42,7 +42,7 @@ const gitCloneDefinition = "git clone is a command that allows you to copy an ex
 */
 
 //CODE HERE
-const gitStatusDefinition = "git status is a command that shows the current status of your repository, including which files have been modified, added, or deleted, and whether or not they are ready for a commit.
+const gitStatusDefinition = "git status is a command that shows the current status of your repository, including which files have been modified, added, or deleted, and whether or not they are ready for a commit."
 /*
     Create a variable called 'gitAddDefinition'.  
     It should be a string containing your best definition of what 'git add' does.
