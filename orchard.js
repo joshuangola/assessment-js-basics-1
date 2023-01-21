@@ -50,6 +50,7 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+// first we create a variable to track our totalAcres. then we create our for loop that will run for the length of the above arrays. when adding arrays make sure you use the += sign when adding to totalAcres. if you use just = it will just right over the first variable input in your array.
 let totalAcres = 0;
 for(let i = 0; i < fujiAcres.length; i++){
 totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i];
@@ -72,7 +73,7 @@ console.log(totalAcres);
 */
 
 // CODE HERE
-
+// there are 7 days in the week so you divide totalAcres by 7 to get your average. You also could divide by the length of one of the arrays above like i did in problem 1. I divided by 7 to show another way of doing it but i would prefer doing it like i did in problem 1 just incase the days farmed ever changes in the array it will not break this section of code.
 let averageDailyAcres = totalAcres/7;
 
 console.log(averageDailyAcres);
@@ -110,6 +111,7 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+// I quite liked this one and it made me think a lot. once i realized how to do it though it was quite simple and satisfying to write. this while loop just lets us increase the day and every time the day goes up by 1 it will -averageDailyAcres from acresLeft until acresLeft reaches 0 the the loop will stop and we will see how many days it took.
 while(acresLeft > 0){
     days++;
     acresLeft -= averageDailyAcres;
@@ -142,6 +144,7 @@ while(acresLeft > 0){
 */
 
 // CODE HERE
+// this was a simple for loop that lets us push our answers into our new variable to get the tons of apples. after completing this it does work but in the future i may want to create a variable for tonsPerAcher. that way in the future if the 6.5 ever changes i just have to change the variable and not find everywhere i put in 6.5
 
 // let fujiTons =
 // let galaTons =
@@ -179,6 +182,7 @@ for(let i = 0; i < 7; i++){
 */
 
 // CODE HERE 
+// this is very similar to the last problem and i also can take the 2000 and put it in a "const ton = 2000"
 
 // let fujiPounds =
 // let galaPounds =
@@ -215,6 +219,7 @@ for(let i = 0; i < 7; i++){
 */
 
 // CODE HERE
+// here is just simple math profit will = pounds * price
 
 // let fujiProfit =
 // let galaProfit =
@@ -236,6 +241,7 @@ console.log(pinkProfit);
 
 
 // PROBLEM 7
+// this was by far the hardest problem of the assessment. adding the fujiProfit+galaProfit+pinkProfit to get totalProfit :)
 
 /*
     Add up all your profits and save 
